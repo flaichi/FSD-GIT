@@ -6,10 +6,9 @@
 
 <h3> SKILLS</h3>
 <ul>
-<li> Telecom testing   </li>
+<li> Telecom testing and Support    </li>
   <li> project management  </li>
-  <li> Telecom support   </li>
-   <li> Electronics Repairs   </li>
+    <li> Electronics Repairs   </li>
     <li> Others  </li>
     </ul>
     
