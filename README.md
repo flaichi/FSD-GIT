@@ -2,7 +2,7 @@
 
 
 <h3>About </h3>
-<p> Curently in comleting FSD </p>
+<p> yeasr in telecom and Technical Sales and Curently in comleting FSD </p>
 
 <h3> SKILLS</h3>
 <ul>
