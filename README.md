@@ -22,7 +22,7 @@ Project to enhance Web Dev learning skills <br>
 <h3>CURRENT TASKS</h3>
 Full stack devlopment training  is on stages.
 
-<ol> ITEMS 
+<ol> 
 <li> GIT -GITHUB  </li>
   <li> HTML  </li>
   <li> CSS  </li>
