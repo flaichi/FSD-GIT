@@ -6,10 +6,11 @@
 
 <h3> SKILLS</h3>
 <ul>
-<li> HTML  </li>
-  <li> CSS  </li>
-  <li> JS  </li>
-    <li> NodeJs  </li>
+<li> Telecom testing   </li>
+  <li> project management  </li>
+  <li> Telecom support   </li>
+   <li> Electronics Repairs   </li>
+    <li> Others  </li>
     </ul>
     
    
