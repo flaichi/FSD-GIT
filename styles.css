@@ -1,0 +1,110 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+/*  Part start: decativate ------------------
+#grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: ;
+  background: yellowgreen;
+}
+
+#grid div {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}
+
+#grid div:nth-child(2n) {
+  background: red;
+}
+
+#grid div:nth-child(2n + 1) {
+  background: blue;
+}
+
+end of Part 1 */
+/* ---------- Grid Area with grid-area */
+#grid2 {
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;
+  grid-template-areas:
+    "header    "
+    "main   "
+    "footer   ";
+  /* column-gap: 10px;
+  row-gap: 10px; */
+  gap: 20px;
+  align-items: center;
+  background: yellow;
+}
+
+main {
+  background: green;
+  grid-area: main;
+}
+
+aside {
+  background: #000;
+  color: #fff9;
+  grid-area: aside;
+}
+
+footer {
+  background: blue;
+  color: white;
+  grid-area: footer;
+}
+header {
+  background: #fcc;
+  color: #000;
+  grid-area: header;
+}
+div {
+  background: navajowhite;
+  grid-area: ad;
+}
+#grid2 *:nth-child(2n + 1) {
+  font-size: 21px;
+}
+
+/* justy content and itmes in center */
+#grid3 {
+  /*   justify-items: center;
+  align-items: center; 
+  place-items: center;*/
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+
+  display: grid;
+  background: #fff;
+
+  background: goldenrod;
+}
+
+h3 {
+  background: #000;
+  color: white;
+  grid-row: 2 / span 4;
+  grid-column: 2 / span 3;
+}
+/* span in grid */
+
+/* ----------------- Responivness -----------------*/
+@media only screen and (max-width: 500px) {
+  #grid2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "header "
+      "main "
+      "aside"
+      "footer";
+  }
+}
