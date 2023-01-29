@@ -1,7 +1,7 @@
 <img src="https://user-images.githubusercontent.com/65201756/215280059-e4fbda88-85ae-4092-8eda-beb1bf90793f.jpg"  width="250" />
 
 
-<h3>About </h3>
+<h3>ABOUT </h3>
 <p> yeasr in telecom and Technical Sales and Curently in comleting FSD </p>
 
 <h3> SKILLS</h3>
